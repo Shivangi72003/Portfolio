@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Shivangi</p>
+            </div>
+
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link ">About</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-------------- Dark mode ----------->
+
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!----------- main ---------->
+
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>a final year B.Tech student at IGDTUW, proficient in C++ and data structures and algorithms.
+                            As a frontend developer,I build dynamic interfaces and love exploring new technologies.</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class=" btn hire-me"> Hire Me</button>
+                        <button class="btn">
+                            <a href="https://drive.google.com/uc?export=download&id=1UBswdHiywygAqONiVNI-vw9GHc8GCB7U"
+                                download>
+                                Download CV</a>
+                        </button>
+                    </div>
+
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="https://www.instagram.com/shivangigoswami706/?hl=en" target="_blank"
+                            rel="noopener noreferrer" class="icon"><i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shivangi-goswami-a059b722a/" target="_blank"
+                            rel="noopener noreferrer" class="icon"><i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Shivangi72003" target="_blank" rel="noopener noreferrer"
+                            class="icon"> <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="my-image.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--------- about box ------------>
+
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="profile" />
+                                    <p>Hello, I’m Shivangi Goswami, born and brought up in Delhi. I’m passionate about
+                                        coding and exploring new technologies. Currently pursuing a B.Tech in Mechanical
+                                        Engineering at Indira Gandhi Delhi Technical University for Women, I have strong
+                                        problem-solving skills and a deep drive to create impactful solutions. I’m
+                                        excited to apply my technical expertise along with my communication and
+                                        leadership abilities.</p>
+                            </figure>
+                            <button class="about-me-btn">Hire Me </button>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-box">
+                            <span class="title">C++</span>
+                            <div class="skill-bar cpp">
+                                <span class="skill-per">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <span class="title">Data Structure and algorithms</span>
+                            <div class="skill-bar dsa">
+                                <span class="skill-per">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">55%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">React</span>
+                            <div class="skill-bar">
+                                <span class="skill-per react">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- ---------project-box ---------->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="project-container">
+
+                    <!-- Project 1: Paradise Stay -->
+
+                    <div class="project-box">
+                        <img src="project cover.png" alt="Paradise Stay" class="project-image">
+                        <h3>Paradise Stay</h3>
+                        <p>Paradise Stay is a captivating website designed to showcase a range of luxurious villas,
+                            offering a seamless and responsive user experience. Built with HTML, CSS, JavaScript, and
+                            React, the site features intuitive navigation with pages dedicated to Villas, About Us, and
+                            Contact. The design emphasizes elegance and functionality, ensuring users can easily explore
+                            and inquire about their ideal getaway.</p>
+                        <a href="https://paradisestays.netlify.app/" class="project-link" target="_blank"
+                            rel="noopener noreferrer">View Project</a>
+                    </div>
+
+                    <!-- Project 2  Tic-Tac-toe ------>
+
+                    <div class="project-box">
+                        <img src="tic-tac-toe.png" alt="tic-tac-toe" class="project-image">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>A web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScript, featuring an interactive
+                            and visually appealing user interface. The game was designed to allow two players to compete
+                            against each other by making moves on a 3x3 grid. The game includes winning condition
+                            checks, draw detection and ensuring a seamless and engaging experience for players.</p>
+                        <a href="https://winning-grid.netlify.app/" class="project-link" target="_blank"
+                            rel="noopener noreferrer">View Project</a>
+                    </div>
+
+                    <!-- Project 3   Portfolio ----- -->
+
+
+                    <div class="project-box">
+                        <img src="portfolio.png" alt="portfolio" class="project-image">
+                        <h3>Portfolio</h3>
+                        <p> A visually captivating portfolio built with HTML, CSS, and JavaScript, featuring Home,
+                            About, Projects, and Contact sections with dynamic animations. It includes a dark and light
+                            mode option, showcasing professional details and skills with a modern, engaging interface.
+                            The portfolio is also fully responsive, ensuring an optimal viewing experience across all
+                            devices.</p>
+                        <a href="#home" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!---------- contact -------->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's work together</h1>
+                    <span>Do you have projects in your mind,contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email : shivangigoswami813@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone : 8287768123</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!----------- Footer ----------------->
+
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/shivangigoswami706/?hl=en" target="_blank" rel="noopener noreferrer"
+                    class="icon"><i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shivangi-goswami-a059b722a/" target="_blank"
+                    rel="noopener noreferrer" class="icon"><i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://github.com/Shivangi72003" target="_blank" rel="noopener noreferrer" class="icon"> <i
+                        class="uil uil-github-alt"></i>
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>copyright &copy; <a href="#home" style="text-decoration: none;">Shivangi</a>-All right reserved 2024
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
